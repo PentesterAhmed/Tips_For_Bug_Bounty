@@ -1,0 +1,6 @@
+________________________________________________________________________
+Tip:
+1. Crawl entire application, visit each and every endpoint. At the end check burpsuite’s http history and test all the parameters if they are vulnerable for XSS or not.
+2. Don’t copy paste the whole XSS payload in parameter. Just check these characters '"></. And if your application is not encoding these characters so there will be 90% chances for XSS.
+
+________________________________________________________________________
