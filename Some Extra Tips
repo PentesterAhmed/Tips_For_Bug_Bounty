@@ -8,7 +8,9 @@ Useful File Extensions tO use While Files & Directory Enumeration
 
 .txt,.js,.env,.xml,.css,.html,.
 ________________________________________________________________________
-
+Found a directory listing?
+You can use `wget -r --no-parent target.com/dir` to recursively fetch all the files (+structure) to your machine.
+Now you can view the structure, search, and grep in files.
 ________________________________________________________________________
 
 ________________________________________________________________________
