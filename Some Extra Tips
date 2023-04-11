@@ -19,6 +19,10 @@ Don't forget to view Page source >_<
 3- CTRL + F and search using keywords like :- API_KEY, Secret, Token, Password, Pass
 4- You may get sensitive secrets
 ________________________________________________________________________
+I was invited in private bug bounty platform and I found a vulnerable sql injection point but sqlmap turned his back on me, so I used Ghauri and I successfully got the dbs 😌😊
+btw, It was Time Based Sql
+here is my favorite payload:
+0'XOR(if(now()=sysdate(),sleep(20),0))XOR'Z
 
 ________________________________________________________________________
 
