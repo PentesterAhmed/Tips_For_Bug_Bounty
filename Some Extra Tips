@@ -12,7 +12,12 @@ Found a directory listing?
 You can use `wget -r --no-parent target.com/dir` to recursively fetch all the files (+structure) to your machine.
 Now you can view the structure, search, and grep in files.
 ________________________________________________________________________
-
+Tips :-
+Don't forget to view Page source >_<
+1 - Open :- https://sub.target.com
+2- Right click + View Page source
+3- CTRL + F and search using keywords like :- API_KEY, Secret, Token, Password, Pass
+4- You may get sensitive secrets
 ________________________________________________________________________
 
 ________________________________________________________________________
